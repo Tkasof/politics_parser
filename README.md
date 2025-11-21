@@ -13,7 +13,7 @@
 
 ```bash
 1. Клонируйте репозиторий
-git clone <url-репозитория>
+git clone https://github.com/Tkasof/politics_parser.git
 cd politics_parser
 
 2. Создайте виртуальное окружение и установите зависимости
