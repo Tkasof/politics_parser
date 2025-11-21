@@ -9,18 +9,18 @@
 - Преобразует относительные ссылки в абсолютные
 - Сохраняет данные в структурированном JSON-формате
 
-## Установка и запуск
+## Установка
 
 ```bash
-1. Клонируйте репозиторий
 git clone https://github.com/Tkasof/politics_parser.git
 cd politics_parser
-
-2. Создайте виртуальное окружение и установите зависимости
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+```
 
-3. Запустите программу
-(предварительно сохранив страницу как parties_page.html)
+## Запуск 
+(сохранив страницу как parties_page.html)
+```bash
 python parse_parties.py
+```
