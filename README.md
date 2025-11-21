@@ -12,14 +12,15 @@
 ## Установка и запуск
 
 ```bash
-# Клонируйте репозиторий
+1. Клонируйте репозиторий
 git clone <url-репозитория>
 cd politics_parser
 
-# Создайте виртуальное окружение и установите зависимости
+2. Создайте виртуальное окружение и установите зависимости
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 
-# Запустите программу (предварительно сохранив страницу как parties_page.html)
+3. Запустите программу
+(предварительно сохранив страницу как parties_page.html)
 python parse_parties.py
