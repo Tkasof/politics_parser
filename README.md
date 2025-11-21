@@ -20,7 +20,7 @@ pip install -r requirements.txt
 ```
 
 ## Запуск 
-(сохранив страницу как parties_page.html)
+(предварительно сохранив страницу как parties_page.html)
 ```bash
 python parse_parties.py
 ```
